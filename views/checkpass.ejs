@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>
+            checkpassword
+        </title>
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="shortcut icon" href="#">
+        
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hubballi&display=swap" rel="stylesheet">
+
+    <script src="/javascripts/project.js"></script>
+        <style>
+          
+            .maincontainer{
+                height: 100%;
+                width: 100%;
+                background-color: black;
+                background-size: cover;
+                position: fixed;
+                
+                padding-top: 50px;
+                left: 0%;
+                right: 0%;
+                top: 0%;
+            }
+            .box{
+                width: 25%;
+                height: 18%;
+                background-color: white;
+                border-radius: 25px;
+                margin-left: 37%;
+                
+                
+            }
+            .enterpass{
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 16px;
+            }
+            .button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                color: white;
+            }
+            .row{
+                padding-top: 200px;
+                padding-left: 180px;
+              
+            }
+            .res{
+                color: rgb(162, 143, 143);
+                font-family: 'Anton', sans-serif;
+                font-size: 120px;
+                transition: transform 250ms;
+
+            }
+            .res:hover,.identity:hover{
+                transform: translateY(-10px);
+            }
+            .identity{
+                color: white;
+                display: flex;
+                font-family: 'Anton', sans-serif;
+                font-size: 30px;
+                justify-content: center;
+                align-items: center;
+                transition: transform 250ms;
+                letter-spacing: 1;
+            }
+        </style>
+        <script>
+            
+        </script>
+    </head>
+    <body>
+        <div class="maincontainer">          
+            <div class="box">
+                
+                <div class="enterpass">
+                    <div class="input-field col s6" >
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="pass" type="text" class="validate" name="passcode" >
+                        <label for="pass">Enter Your Password</label>
+                      </div>
+                </div>              
+            </div>  
+            <div class="row" style="padding-top: 80px;">
+                <div class="col s3 res"  >
+                    <h5>Special Characters</h5>
+                </div>
+                <div class="col s3 res" >
+                    <h5>Numbers</h5>
+                </div>
+                <div class="col s3 res" >
+                    <h5>Uppercase Letters</h5>
+                </div>
+                <div class="col s3 res" >
+                    <h5>Total Characters</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 7px; padding-left: 190px;">
+                <div class="col s3 res" id="spc" >
+                    
+                </div>
+                <div class="col s3 res" id="numbers">
+                    
+                </div>
+                <div class="col s3 res" id="uppercase">
+                    
+                </div>
+                <div class="col s3 res" id="totalchar">
+                    
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 20px; margin-bottom: 20px; padding-top: 60px;">
+                <div class="col s10 identity" id="security">
+                     
+                </div>
+                <div>
+                    <audio autoplay id="awaz" type="audio/mp3"></audio>
+                </div>
+            </div>
+                
+        </div>
+        
+
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</html>
